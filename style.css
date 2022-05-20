@@ -12,7 +12,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 p {
@@ -26,11 +26,9 @@ p {
 }
 
 h1 {
-  background-color: rgb(19, 0, 192);
   color: white;
   display: flex;
   justify-content: center;
-  margin-top: 40px;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
 }
@@ -41,11 +39,49 @@ h1 {
   color: greenyellow;
   font-weight: 900;
   font-size: large;
+  margin-bottom: 120px;
   padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 15px;
 }
+
+#Footer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#Created {
+  color: #0a0131;
+  padding-right: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+  text-decoration:none;
+}
+  
+img {
+  padding-right: 10px;
+}
+
+section {
+  background-color: yellow;
+  color: orangered;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  margin-top: 30px;
+  padding: 1%;
+}
+
+
 
 @media only screen and (max-width: 1220px) {
   p {
