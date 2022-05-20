@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image:url('./megasena.jpg')
+}
+
+.screen {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+p {
+  background-color: rgb(243, 165, 20);
+  border-radius: 20%;
+  box-shadow: 10px 5px 5px rgb(65, 68, 253);
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  padding: 50px;
+}
+
+h1 {
+  background-color: rgb(19, 0, 192);
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+#gameButton {
+  background-color: crimson;
+  border-radius: 8%;
+  color: greenyellow;
+  font-weight: 900;
+  font-size: large;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 1220px) {
+  p {
+    background-color: rgb(243, 165, 20);
+    border-radius: 15%;
+    box-shadow: 10px 5px 5px rgb(65, 68, 253);
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 40px;
+  }
+  
+  h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  #gameButton {
+    background-color: crimson;
+    border-radius: 8%;
+    color: greenyellow;
+    font-weight: 900;
+    font-size: large;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  p {
+    background-color: rgb(243, 165, 20);
+    border-radius: 10%;
+    box-shadow: 5px 3px 3px rgb(65, 68, 253);
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 25px;
+  }
+    
+  h1 {
+    color: white;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+    
+  #gameButton {
+    background-color: crimson;
+    border-radius: 8%;
+    color: greenyellow;
+    font-weight: 900;
+    font-size: large;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    background-color: rgb(243, 165, 20);
+    border-radius: 10%;
+    box-shadow: 5px 3px 3px rgb(65, 68, 253);
+    color: white;
+    font-size: 1.7em;
+    font-weight: 900;
+    padding: 15px;
+  }
+    
+  h1 {
+    color: white;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+    
+  #gameButton {
+    background-color: crimson;
+    border-radius: 8%;
+    color: greenyellow;
+    font-size: small;
+    font-weight: 900;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+  }
+}
